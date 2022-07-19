@@ -10,14 +10,12 @@ nav {
 }
 
 #top-player-sec {
-    margin: auto;
+    margin: 20px auto;
     padding: 30px;
     width: 870px;
     height: 679px;
-    border: 1px solid lightgrey;
     background-color: white;
     border-radius: 5px;
-    margin-bottom: 15px;
 }
 
 #top-player {
@@ -65,11 +63,10 @@ a {
 }
 
 #course-sec {
-    margin: auto;
+    margin: 20px auto;
     padding: 30px;
     width: 870px;
     height: 300px;
-    border: 1px solid lightgrey;
     background-color: white;
     border-radius: 5px;
     margin-bottom: 25px;
