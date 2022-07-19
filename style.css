@@ -1,32 +1,112 @@
-    body {
-        background-color: #F3F1FF;
-    }
-    
-    section {
-        align-content: center;
-        padding: 30px;
-        width: 870px;
-        height: 679px;
-        border: 1px solid lightgrey;
-        background-color: white;
-        border-radius: 5px;
-    }
-    
-    #top-player {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 2em;
-    }
-    
-    #top-player img {
-        height: 56px;
-        width: 56px;
-    }
-    
-    .player-info {
-        display: flex;
-    }
-    
-    hr {
-        color: lightgrey;
-    }
+body {
+    background-color: #F3F1FF;
+    margin: 0;
+}
+
+nav {
+    height: 60px;
+    width: 100%;
+    background-color: mediumslateblue;
+}
+
+#top-player-sec {
+    margin: auto;
+    padding: 30px;
+    width: 870px;
+    height: 679px;
+    border: 1px solid lightgrey;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+#top-player {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2em;
+}
+
+#top-player img {
+    height: 56px;
+    width: 56px;
+}
+
+.player-info,
+.blog {
+    display: flex;
+    gap: 15px;
+}
+
+hr {
+    color: lightgrey;
+}
+
+.top-blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+}
+
+.blog img {
+    height: 150px;
+    width: 150px;
+}
+
+.blog-info {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.span-colour {
+    color: lightslategray;
+}
+
+#course-sec {
+    margin: auto;
+    padding: 30px;
+    width: 870px;
+    height: 300px;
+    border: 1px solid lightgrey;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.course-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.course-info {
+    margin: 5px;
+    width: 225px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: .5px .5px 15px rgba(211, 211, 211, 0.672);
+}
+
+.course-info img {
+    height: 100px;
+    width: 100%;
+}
+
+.course-info a {
+    color: salmon
+}
+
+.fa-star {
+    color: gold;
+}
+
+.fa-clock {
+    height: 20px;
+    width: 90px;
+    background-color: #cd5c5c69;
+    color: rgb(220, 73, 20);
+    padding: 6px 4px;
+    text-align: center;
+    border-radius: 15px;
+}
