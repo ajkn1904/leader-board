@@ -13,7 +13,7 @@ nav {
     margin: 20px auto;
     padding: 30px;
     width: 870px;
-    height: 679px;
+    height: 620px;
     background-color: white;
     border-radius: 5px;
 }
@@ -106,4 +106,13 @@ a {
     padding: 6px 4px;
     text-align: center;
     border-radius: 15px;
+}
+
+footer{
+    background-color:gray; 
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height:80px;
 }
